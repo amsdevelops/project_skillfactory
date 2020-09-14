@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FilmsSearch</string>
+    <string name="disclaimer">Постеры предоставлены https://www.movieposters.com/</string>
+    <string name="btn_menu">Меню</string>
+    <string name="btn_fav">Избранное</string>
+    <string name="btn_watch_later">Посмотреть позже</string>
+    <string name="btn_selections">Подборки</string>
+    <string name="btn_setting">Настройки</string>
 </resources>
