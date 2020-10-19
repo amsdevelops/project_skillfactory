@@ -73,7 +73,6 @@
         android:id="@+id/main_recycler"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:padding="8dp"
         tools:listitem="@layout/film_item"
         app:layout_constraintTop_toBottomOf="@+id/disclaimer"
         app:layout_constraintBottom_toBottomOf="parent"
