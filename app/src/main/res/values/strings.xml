@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FilmsSearch</string>
-    <string name="menu_favorites_title">Избранное</string>
-    <string name="menu_watch_later_title">Посмотреть позже</string>
-    <string name="menu_selections_title">Подборки</string>
+    <string name="menu_favorites_title_text">Избранное</string>
+    <string name="menu_watch_later_title_text">Посмотреть позже</string>
+    <string name="menu_selections_title_text">Подборки</string>
+    <string name="menu_home_title_text">Главная</string>
 </resources>
