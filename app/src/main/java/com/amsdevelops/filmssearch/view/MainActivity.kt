@@ -1,9 +1,12 @@
-package com.amsdevelops.filmssearch
+package com.amsdevelops.filmssearch.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.amsdevelops.filmssearch.*
 import com.amsdevelops.filmssearch.databinding.ActivityMainBinding
+import com.amsdevelops.filmssearch.domain.Film
+import com.amsdevelops.filmssearch.view.fragments.*
 
 
 class MainActivity : AppCompatActivity() {

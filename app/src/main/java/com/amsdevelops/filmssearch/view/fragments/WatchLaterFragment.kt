@@ -1,4 +1,4 @@
-package com.amsdevelops.filmssearch
+package com.amsdevelops.filmssearch.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.amsdevelops.filmssearch.databinding.FragmentWatchLaterBinding
+import com.amsdevelops.filmssearch.utils.AnimationHelper
 import kotlinx.android.synthetic.main.fragment_watch_later.*
 
 class WatchLaterFragment : Fragment() {

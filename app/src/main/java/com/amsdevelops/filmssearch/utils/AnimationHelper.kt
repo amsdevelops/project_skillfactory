@@ -1,4 +1,4 @@
-package com.amsdevelops.filmssearch
+package com.amsdevelops.filmssearch.utils
 
 import android.app.Activity
 import android.view.View
