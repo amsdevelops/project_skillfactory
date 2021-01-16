@@ -4,4 +4,11 @@
     <string name="menu_watch_later_title_text">Посмотреть позже</string>
     <string name="menu_selections_title_text">Подборки</string>
     <string name="menu_home_title_text">Главная</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_settings_title_text">Настройки</string>
+    <string name="radio_button_popular">Популярные</string>
+    <string name="radio_button_top_rated">Топ</string>
+    <string name="radio_button_upcoming">Скоро</string>
+    <string name="radio_button_playing">В кинотеатрах</string>
+    <string name="radio_group_header">Подборка на главном экране:</string>
 </resources>
