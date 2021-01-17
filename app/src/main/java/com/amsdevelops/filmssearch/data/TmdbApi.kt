@@ -1,6 +1,6 @@
 package com.amsdevelops.filmssearch.data
 
-import com.amsdevelops.filmssearch.data.Entity.TmdbResults
+import com.amsdevelops.filmssearch.data.entity.TmdbResults
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

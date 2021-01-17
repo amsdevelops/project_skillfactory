@@ -1,7 +1,7 @@
 package com.amsdevelops.filmssearch.utils
 
-import com.amsdevelops.filmssearch.data.Entity.TmdbFilm
-import com.amsdevelops.filmssearch.domain.Film
+import com.amsdevelops.filmssearch.data.entity.TmdbFilm
+import com.amsdevelops.filmssearch.data.entity.Film
 
 object Converter {
     fun convertApiListToDTOList(list: List<TmdbFilm>?): List<Film> {

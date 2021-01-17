@@ -9,8 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.amsdevelops.filmssearch.domain.Film
-import com.amsdevelops.filmssearch.R
+import com.amsdevelops.filmssearch.data.entity.Film
 import com.amsdevelops.filmssearch.view.rv_adapters.TopSpacingItemDecoration
 import com.amsdevelops.filmssearch.databinding.FragmentHomeBinding
 import com.amsdevelops.filmssearch.utils.AnimationHelper

@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.amsdevelops.filmssearch.domain.Film
+import com.amsdevelops.filmssearch.data.entity.Film
 import com.amsdevelops.filmssearch.R
 import com.amsdevelops.filmssearch.data.ApiConstants
 import com.amsdevelops.filmssearch.databinding.FragmentDetailsBinding

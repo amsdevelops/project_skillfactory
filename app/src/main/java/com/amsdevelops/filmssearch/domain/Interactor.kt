@@ -1,7 +1,8 @@
 package com.amsdevelops.filmssearch.domain
 
 import com.amsdevelops.filmssearch.data.*
-import com.amsdevelops.filmssearch.data.Entity.TmdbResults
+import com.amsdevelops.filmssearch.data.entity.Film
+import com.amsdevelops.filmssearch.data.entity.TmdbResults
 import com.amsdevelops.filmssearch.data.preferenes.PreferenceProvider
 import com.amsdevelops.filmssearch.utils.Converter
 import com.amsdevelops.filmssearch.viewmodel.HomeFragmentViewModel
@@ -17,9 +18,7 @@ class Interactor(private val repo: MainRepository, private val retrofitService: 
                 //При успехе мы вызываем метод передаем onSuccess и в этот коллбэк список фильмов
                 val list = Converter.convertApiListToDTOList(response.body()?.tmdbFilms)
                 //Кладем фильмы в бд
-                list.forEach {
-                    repo.putToDb(film = it)
-                }
+                repo.putToDb(list)
                 callback.onSuccess(list)
             }
 

@@ -3,7 +3,7 @@ package com.amsdevelops.filmssearch.view.rv_viewholders
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.amsdevelops.filmssearch.data.ApiConstants
-import com.amsdevelops.filmssearch.domain.Film
+import com.amsdevelops.filmssearch.data.entity.Film
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.film_item.view.*
 

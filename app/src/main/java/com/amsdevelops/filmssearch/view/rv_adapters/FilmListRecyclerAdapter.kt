@@ -3,7 +3,7 @@ package com.amsdevelops.filmssearch.view.rv_adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.amsdevelops.filmssearch.domain.Film
+import com.amsdevelops.filmssearch.data.entity.Film
 import com.amsdevelops.filmssearch.view.rv_viewholders.FilmViewHolder
 import com.amsdevelops.filmssearch.R
 import kotlinx.android.synthetic.main.film_item.view.*
