@@ -12,7 +12,6 @@ import com.amsdevelops.filmssearch.view.rv_adapters.TopSpacingItemDecoration
 import com.amsdevelops.filmssearch.databinding.FragmentFavoritesBinding
 import com.amsdevelops.filmssearch.utils.AnimationHelper
 import com.amsdevelops.filmssearch.view.MainActivity
-import kotlinx.android.synthetic.main.fragment_favorites.*
 
 class FavoritesFragment : Fragment() {
     private lateinit var filmsAdapter: FilmListRecyclerAdapter
@@ -30,7 +29,7 @@ class FavoritesFragment : Fragment() {
         //Получаем список при транзакции фрагмента
         val favoritesList: List<Film> = emptyList()
 
-        AnimationHelper.performFragmentCircularRevealAnimation(favorites_fragment_root, requireActivity(),2)
+        AnimationHelper.performFragmentCircularRevealAnimation(binding.favoritesFragmentRoot, requireActivity(),2)
 
         binding.favoritesRecycler.apply {
             filmsAdapter = FilmListRecyclerAdapter(object : FilmListRecyclerAdapter.OnItemClickListener {

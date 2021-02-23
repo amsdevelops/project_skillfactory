@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.amsdevelops.filmssearch.databinding.FragmentWatchLaterBinding
 import com.amsdevelops.filmssearch.utils.AnimationHelper
-import kotlinx.android.synthetic.main.fragment_watch_later.*
 
 class WatchLaterFragment : Fragment() {
     private lateinit var binding: FragmentWatchLaterBinding
@@ -22,6 +21,6 @@ class WatchLaterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        AnimationHelper.performFragmentCircularRevealAnimation(watch_later_fragment_root, requireActivity(), 3)
+        AnimationHelper.performFragmentCircularRevealAnimation(binding.watchLaterFragmentRoot, requireActivity(), 3)
     }
 }
