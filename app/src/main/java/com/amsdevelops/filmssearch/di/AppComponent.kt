@@ -2,17 +2,17 @@ package com.amsdevelops.filmssearch.di
 
 import com.amsdevelops.filmssearch.di.modules.DatabaseModule
 import com.amsdevelops.filmssearch.di.modules.DomainModule
-import com.amsdevelops.filmssearch.di.modules.RemoteModule
 import com.amsdevelops.filmssearch.viewmodel.HomeFragmentViewModel
 import com.amsdevelops.filmssearch.viewmodel.SettingsFragmentViewModel
 import dagger.Component
+import ru.devivanov.remote_module.RemoteProvider
 import javax.inject.Singleton
 
 @Singleton
 @Component(
     //Внедряем все модули, нужные для этого компонента
+    dependencies = [RemoteProvider::class],
     modules = [
-        RemoteModule::class,
         DatabaseModule::class,
         DomainModule::class
     ]

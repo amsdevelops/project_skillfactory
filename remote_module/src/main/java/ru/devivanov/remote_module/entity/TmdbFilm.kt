@@ -1,4 +1,4 @@
-package com.amsdevelops.filmssearch.data.entity
+package ru.devivanov.remote_module.entity
 
 
 import com.google.gson.annotations.SerializedName

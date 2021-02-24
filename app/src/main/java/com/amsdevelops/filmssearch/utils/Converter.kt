@@ -1,7 +1,7 @@
 package com.amsdevelops.filmssearch.utils
 
-import com.amsdevelops.filmssearch.data.entity.TmdbFilm
 import com.amsdevelops.filmssearch.data.entity.Film
+import ru.devivanov.remote_module.entity.TmdbFilm
 
 object Converter {
     fun convertApiListToDTOList(list: List<TmdbFilm>?): List<Film> {

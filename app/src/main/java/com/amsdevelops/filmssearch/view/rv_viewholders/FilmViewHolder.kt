@@ -2,10 +2,11 @@ package com.amsdevelops.filmssearch.view.rv_viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.amsdevelops.filmssearch.data.ApiConstants
+import com.amsdevelops.filmssearch.data.API
 import com.amsdevelops.filmssearch.data.entity.Film
 import com.amsdevelops.filmssearch.databinding.FilmItemBinding
 import com.bumptech.glide.Glide
+import ru.devivanov.remote_module.entity.ApiConstants
 
 //В конструктор класс передается layout, который мы создали(film_item.xml)
 class FilmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

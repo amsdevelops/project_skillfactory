@@ -1,13 +1,12 @@
 package com.amsdevelops.filmssearch.di.modules
 
 import android.content.Context
-import com.amsdevelops.filmssearch.App
 import com.amsdevelops.filmssearch.data.MainRepository
-import com.amsdevelops.filmssearch.data.TmdbApi
 import com.amsdevelops.filmssearch.data.preferenes.PreferenceProvider
 import com.amsdevelops.filmssearch.domain.Interactor
 import dagger.Module
 import dagger.Provides
+import ru.devivanov.remote_module.TmdbApi
 import javax.inject.Singleton
 
 @Module
