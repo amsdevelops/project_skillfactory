@@ -19,6 +19,7 @@ import androidx.fragment.app.viewModels
 import com.amsdevelops.filmssearch.R
 import com.amsdevelops.filmssearch.data.entity.Film
 import com.amsdevelops.filmssearch.databinding.FragmentDetailsBinding
+import com.amsdevelops.filmssearch.view.notifications.NotificationHelper
 import com.amsdevelops.filmssearch.viewmodel.DetailsFragmentViewModel
 import com.bumptech.glide.Glide
 import com.google.android.material.snackbar.Snackbar
@@ -71,6 +72,10 @@ class DetailsFragment : Fragment() {
 
         binding.detailsFabDownloadWp.setOnClickListener {
             performAsyncLoadOfPoster()
+        }
+
+        binding.detailsFabWatchLater.setOnClickListener {
+            NotificationHelper.createNotification(requireContext(), film)
         }
     }
 
